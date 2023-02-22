@@ -1,9 +1,6 @@
 use chrono::{NaiveDate, Weekday};
 use wasm_bindgen::prelude::*;
 
-#[global_allocator]
-static ALLOC: wee_alloc::WeeAlloc = wee_alloc::WeeAlloc::INIT;
-
 /// Returns true if the given year has a 53rd week.
 #[wasm_bindgen(js_name = "has53Weeks")]
 pub fn has_53_weeks(year: i32 /*** Test */) -> bool {
