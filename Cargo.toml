@@ -1,5 +1,6 @@
 [package]
 name = "week-year"
+description = "A simple library to get a date range from a week number and year"
 version = "0.1.0"
 authors = ["Jerebtw"]
 edition = "2021"
