@@ -2,7 +2,7 @@
 name = "week-year"
 description = "A simple library to get a date range from a week number and year"
 repository = "https://github.com/jerebtw/week-year"
-version = "0.1.1"
+version = "0.2.0"
 authors = ["Jerebtw"]
 edition = "2021"
 license = "MIT"
